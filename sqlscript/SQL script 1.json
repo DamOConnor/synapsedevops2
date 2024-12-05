@@ -1,8 +1,11 @@
 {
 	"name": "SQL script 1",
 	"properties": {
+		"folder": {
+			"name": "CFS"
+		},
 		"content": {
-			"query": "SELECT @@@Version V",
+			"query": "SELECT @@version V",
 			"metadata": {
 				"language": "sql"
 			},
